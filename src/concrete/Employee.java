@@ -41,7 +41,11 @@ public class Employee {
 
     @Override
     public String toString() {
-        return super.toString(); 
+         String output;
+         
+         output = "Employee " + name + '\n' + "Age: " + age + '\n' + "ID Number: " + idNumber;
+         
+         return output;
     }
     
      

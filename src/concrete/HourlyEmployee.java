@@ -36,7 +36,11 @@ public class HourlyEmployee extends Employee{
 
     @Override
     public String toString() {
-        return super.toString(); 
+        String output;
+       
+       output = super.toString() + '\n' + "Hourly Rate: " + hourlyPay; 
+       
+       return output;
     }
     
     
