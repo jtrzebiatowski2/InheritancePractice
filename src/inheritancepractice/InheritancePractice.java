@@ -31,6 +31,10 @@ public class InheritancePractice {
         
         System.out.println(spbe1.toString());
         
+        HourlyEmployee he2 = new HourlyEmployee("Bert", 19, "45MB64", 14.75);
+        
+        System.out.println(he2.toString() + '\n' + "Weekly Pay: $" + he2.getPay(he2.getHourlyPay(), 40));
+        
         
         
         
