@@ -17,8 +17,6 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee{
         this.bonus = bonus;
     }
     
-    SalaryPlusBonusEmployee spbe1 = new SalaryPlusBonusEmployee ("Marge", 45, "88DF74", 32500.00, 6000.00);
-    
     public double getYearlyPay(double salary, double bonus){
         return salary + bonus;
     }

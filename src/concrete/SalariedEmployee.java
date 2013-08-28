@@ -16,7 +16,6 @@ public class SalariedEmployee extends Employee{
     this.salary = salary;
     
 }
-    SalariedEmployee se1 = new SalariedEmployee("Bartholmew", 36, "44BV07", 56750.00);
 
     public double getSalary() {
         return salary;
@@ -30,7 +29,7 @@ public class SalariedEmployee extends Employee{
     public String toString() {
         String output;
        
-       output = super.toString() + '\n' + "Salary: " + salary; 
+       output = super.toString() + '\n' + "Salary: $" + salary; 
        
        return output;
     }

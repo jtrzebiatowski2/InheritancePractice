@@ -39,7 +39,7 @@ public class Employee {
     public String toString() {
          String output;
          
-         output = "Employee " + name + '\n' + "Age: " + age + '\n' + "ID Number: " + idNumber;
+         output = "Employee: " + name + '\n' + "Age: " + age + '\n' + "ID Number: " + idNumber;
          
          return output;
     }
