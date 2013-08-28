@@ -18,8 +18,6 @@ public class HourlyEmployee extends Employee{
         this.hourlyPay = hourlyPay;
         
     }
-    
-    HourlyEmployee he1 = new HourlyEmployee ("Fred", 47, "45IK12", 17.75);
 
     public double getHourlyPay() {
         return hourlyPay;

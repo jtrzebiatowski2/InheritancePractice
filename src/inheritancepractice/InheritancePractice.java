@@ -25,7 +25,7 @@ public class InheritancePractice {
         
         Employee he1 = new HourlyEmployee("Lucas", 58, "54YR22", 15.50);
         
-        System.out.println(he1);
+        System.out.println(he1.toString());
         
         
         

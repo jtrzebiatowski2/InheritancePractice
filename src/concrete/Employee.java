@@ -14,11 +14,7 @@ public class Employee {
         this.age =age;
         this.idNumber = idNumber;
     }
-    
-    Employee e1 = new Employee("Steve", 27, "45PO78");
-    Employee e2 = new Employee ("Bill", 32, "74TY87");
-    
-
+   
     public int getAge() {
         return age;
     }
